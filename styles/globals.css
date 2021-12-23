@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.file-import {
+  @apply block m-10 w-full
+  mr-4 py-2 px-4 duration-300
+  rounded-full border-0
+  text-sm font-semibold
+  shadow-lg shadow-slate-700/30 
+  hover:shadow-md hover:shadow-slate-700/30
+  active:shadow-none
+  bg-slate-700 text-slate-100;
 }
