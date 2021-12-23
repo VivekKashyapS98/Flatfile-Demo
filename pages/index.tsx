@@ -58,7 +58,7 @@ export default function Home({ license }) {
           settings={flatfileConfig}
           onData={async (results) => {
             // Do something with the data here
-            console.log(results);
+            console.log(results.data);
           }}
         >
           <span className="file-import">Browse CSV file</span>
